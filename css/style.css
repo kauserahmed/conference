@@ -1,0 +1,131 @@
+body {
+    height:100%;
+    width: 99%;
+  }
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background: #833ab4;  
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); 
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+.paragraph{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul.b {
+    list-style-type: square;
+  }
+
+ol.c {
+    list-style-type: lower-roman;
+  }
+.speaker {
+    height: 250px;
+    width: auto;
+  }
+.speaker img{
+    width: 200px;
+    height: 200px;
+  }
+.left {
+  float: left;
+  padding: 0px 10px 0 0;
+}
+
+.footer {
+    background-color: #8a8a8a;
+  }
+  
+  .footer .footer-from {
+    max-width: 75rem;
+    margin-right: auto;
+    margin-left: auto;
+    color: #e6e6e6;
+    padding: 0.75rem 0;
+  }
+  
+  .footer .footer-from::before, .footer .footer-from::after {
+    display: table;
+    content: ' ';
+    -webkit-flex-basis: 0;
+        -ms-flex-preferred-size: 0;
+            flex-basis: 0;
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  
+  .footer .footer-from::after {
+    clear: both;
+  }
+  
+  .footer .footer-from a {
+    color: #e6e6e6;
+  }
+  
+  .footer .footer-from .footer-left {
+    width: 100%;
+    float: left;
+    padding-right: 0.625rem;
+    padding-left: 0.625rem;
+    display: table;
+  }
+  
+  .footer .footer-from .footer-left .baseline {
+    display: table-cell;
+    vertical-align: bottom;
+  }
+
+  .footer .footer-from .footer-left .contact-details p {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+  }
+  
+  .footer .footer-from .footer-left:last-child:not(:first-child) {
+    float: right;
+  }
+
+  .footer .footer-from .footer-right {
+    text-align: right;
+    width: 100%;
+    float: left;
+    padding-right: 0.625rem;
+    padding-left: 0.625rem;
+    display: table;
+  }
+  
+  .footer .footer-from .footer-right .baseline {
+    display: table-cell;
+    vertical-align: bottom;
+  }
+ 
+  .footer .footer-from .footer-right .fa {
+    padding: 1rem 0 1rem 0.2rem;
+  }
+  .footer .footer-from .footer-right:last-child:not(:first-child) {
+    float: right;
+  }
